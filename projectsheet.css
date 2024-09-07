@@ -14,8 +14,14 @@ p.orange {
     color: orange;
 }  
 
-p.white {
+p.title {
+    color: white; 
+    font-style: normal;
+} 
+
+p.content {
     color: white;
+    font-style: oblique;
 }
 
 .first {
