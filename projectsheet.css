@@ -1,0 +1,32 @@
+div {
+    border: thin solid black;
+}
+
+p {
+    color: blue;
+} 
+
+p.main {
+    color: red;
+} 
+
+p.orange {
+    color: orange;
+}  
+
+p.white {
+    color: white;
+}
+
+.first {
+    font-size: 125%;
+} 
+
+p.important {
+    font-weight: bold;
+    font-style: normal;
+} 
+
+div.main {
+    background-color: #000000;
+}
