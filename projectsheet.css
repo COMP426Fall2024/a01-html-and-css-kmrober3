@@ -6,7 +6,7 @@ p {
     color: blue;
 } 
 
-p.main {
+p > span {
     color: red;
 } 
 
@@ -14,15 +14,9 @@ p.orange {
     color: orange;
 }  
 
-p.title {
+p.white {
     color: white; 
-    font-style: normal;
 } 
-
-p.content {
-    color: white;
-    font-style: oblique;
-}
 
 .first {
     font-size: 125%;
@@ -35,4 +29,13 @@ p.important {
 
 div.main {
     background-color: #000000;
-}
+} 
+
+#m_p1 {
+    font-style: oblique;
+} 
+
+#normal {
+    font-style: normal;
+} 
+
