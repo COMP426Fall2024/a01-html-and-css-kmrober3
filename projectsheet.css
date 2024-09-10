@@ -72,6 +72,11 @@ div.main {
 li:hover {
     background: pink; 
     width: 50px;
+} 
+
+img {
+    height: 150px;
+    width: 150px;
 }
 
 
