@@ -56,7 +56,8 @@ div.main {
 
 #d2-2 {
     background-color: #0000FF;
-    height: 750px;
+    height: 650px; 
+    border: thick solid blueviolet;
 } 
 
 #d2 > span{
@@ -66,6 +67,11 @@ div.main {
 
 #d3 {
     background-color: pink;
+} 
+
+li:hover {
+    background: pink; 
+    width: 50px;
 }
 
 
