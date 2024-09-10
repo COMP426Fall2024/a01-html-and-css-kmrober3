@@ -1,9 +1,9 @@
-div {
-    border: thin solid black;
+div.gold {
+    border: thick solid gold;
 }
 
-p {
-    color: blue;
+p.white {
+    color: white; 
 } 
 
 p > span {
@@ -14,21 +14,10 @@ p.orrd {
     color: #FF4500;
 }  
 
-p.white {
-    color: white; 
-} 
-
-.first {
-    font-size: 125%;
-} 
-
-p.important {
-    font-weight: bold;
-    font-style: normal;
-} 
-
-div.main {
-    background-color: #000000;
+#d2-2 {
+    background-color: #FFFDD0;
+    height: 650px; 
+    border: thick solid #B0E0E6;
 } 
 
 #m_p1 {
@@ -38,38 +27,6 @@ div.main {
 #normal {
     font-style: normal;
 }   
-
-#d1 {
-    background-color: blue;
-} 
-
-#d2 {
-    background-color: gold;
-    width: 80%;
-} 
-
-#d2-1 {
-    background-color: green;
-    width: 50%;
-    margin: auto;
-} 
-
-#d2-2 {
-    background-color: #FFFDD0;
-    height: 650px; 
-    border: thick solid #B0E0E6;
-} 
-
-#d2 > span{
-    border: thin solid purple;
-
-} 
-
-#d3 {
-    background-color: pink;
-} 
-
-
 
 li:hover {
     background: pink; 
@@ -81,7 +38,8 @@ img {
 } 
 
 img:hover {
-    width: 250px; 
+    width: 250px;  
+    height: 250px;
     background: red;
 }
 
