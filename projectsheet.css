@@ -69,14 +69,20 @@ div.main {
     background-color: pink;
 } 
 
+
+
 li:hover {
     background: pink; 
-    width: 50px;
 } 
 
 img {
     height: 150px;
-    width: 150px;
+    width: 150px; 
+} 
+
+img:hover {
+    width: 250px; 
+    background: red;
 }
 
 
