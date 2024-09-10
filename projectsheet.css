@@ -1,5 +1,5 @@
-div.gold {
-    border: thick solid gold;
+p.gold {
+    color: thick solid gold;
 }
 
 p.white {
@@ -41,6 +41,12 @@ img:hover {
     width: 250px;  
     height: 250px;
     background: red;
+} 
+
+select:hover {
+    width: 50px;
+    height: 50px;
+
 }
 
 
