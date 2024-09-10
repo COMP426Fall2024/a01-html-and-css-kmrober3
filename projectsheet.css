@@ -37,5 +37,36 @@ div.main {
 
 #normal {
     font-style: normal;
+}   
+
+#d1 {
+    background-color: blue;
 } 
+
+#d2 {
+    background-color: gold;
+    width: 80%;
+} 
+
+#d2-1 {
+    background-color: green;
+    width: 50%;
+    margin: auto;
+} 
+
+#d2-2 {
+    background-color: purple;
+    height: 150px;
+} 
+
+#d2 > span{
+    border: thin solid purple;
+
+} 
+
+#d3 {
+    background-color: pink;
+}
+
+
 
